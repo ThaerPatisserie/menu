@@ -116,8 +116,9 @@ body {
 
 
 .grid {
+   
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* שתי עמודות קבועות */
+    grid-template-columns: 8fr 8fr; /* שתי עמודות שכל אחת תופסת 8 יחידות חלקיות */
     gap: 20px; /* מרווח בין הכרטיסים */
     margin: 40px;
     
@@ -181,7 +182,7 @@ ul.list-group2 {
     margin: 0;
     padding: 0;
     width: 90%;
-    height: 22cm;
+    height: 25cm;
    
     border: 2px solid gold;
     border-radius: 5px;
